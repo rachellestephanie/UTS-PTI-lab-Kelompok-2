@@ -1,0 +1,163 @@
+body {
+    background-color: rgb(255, 255, 255);
+    background-image: url(assets/back2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: "ibmpc";
+    src: url("./WebPlus_IBM_VGA_8x16.woff") format("woff");
+}
+
+body {
+    font-family: "ibmpc", monospace;
+    font-size: 16px;
+    line-height: 1;
+    text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: none;
+    -moz-osx-font-smoothing: grayscale;
+    font-smooth: never;
+}
+
+.game {
+    margin: 0;
+    text-align: center;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+.upgrade {
+    text-align: left;
+    padding-top: 200px;
+}
+
+.store-item {
+    text-align: right;
+    padding-top: 200px;
+}
+
+.contain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contain2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+@media (max-width: 1100px) {
+    .contain2 {
+        flex-direction: column;
+    }
+
+    .butt {
+        margin-top: 16px;
+    }
+}
+
+button {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    padding: 12px 32px;
+    border-radius: 22px;
+    box-shadow: 2px 2px 1px black;
+    transition: all .2s ease;
+    font-size: 1em;
+    font-weight: 800;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(221, 221, 221);
+    color: black;
+}
+
+.person {
+    position: relative;
+    display: flex;
+    text-align: center;
+    margin: 30px;
+    justify-content: center;
+}
+
+.person img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+.person h2 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.tulisan1 {
+    text-align: center;
+}
+
+.tulisan2 {
+    margin-left: 20px;
+}
+
+.text {
+    text-align: justify;
+}
+
+.gif {
+    position: relative;
+    margin-top: 20px;
+}
+
+.card {
+    width: 280px;
+    height: 340px;
+    background: white;
+    border-radius: 15px;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.shadow {
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgb(190, 190, 190),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.about {
+    width: 350px;
+    height: 150px;
+    background: white;
+    border-radius: 15px;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title class="button">Pixel Clicker</title>
+    <link rel="stylesheet" type="text/css" href="pixelstyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <audio id="coin-sound" src="batukam.mp3"></audio>
+    <audio id="purchase-sound" src="buy.mp3"></audio>
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="PixelClick.html">Home</a></li>
+            <li><a href="AboutPixel.html">About Us</a></li>
+        </ul>
+    </nav>
+    <div class="contain">
+        <div class="upgrade">
+            <h3>Mystery Box</h3>
+            <p class="butt">2x Multiplier</p>
+            <button class="butt" id="buyMultiplier">500 coins</button>
+            <p class="butt">Auto-cliker</p>
+            <button class="butt" id="buyAutoClicker">200 coins</button>
+        </div>
+        <div class="game">
+            <img src="assets/title.png">
+            <p>You have <span id="money">0</span> coins.</p>
+            <button class="clicker-button" id="clickButton">Klik!</button>
+            <div class="gif">
+                <img id="image" src="assets/idle.png" alt="character" height="240" width="185">
+            </div>
+        </div>
+
+        <div class="store-item">
+            <h3>Foods</h3>
+            <p class="tulisan2">Mushroom (+1 coins)</p>
+            <button id="Mushroom">100 coins</button>
+            <p class="tulisan2">Star (+5 coins)</p>
+            <button id="Star">400 coins</button>
+        </div>
+    </div>
+    <script src="pixelscript.js"></script>
+</body>
+
+</html>
